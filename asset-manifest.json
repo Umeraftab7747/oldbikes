@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.d9b228f0.chunk.css",
-    "main.js": "/static/js/main.4dbadbd7.chunk.js",
-    "main.js.map": "/static/js/main.4dbadbd7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.900dd88b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.900dd88b.js.map",
-    "static/css/2.dbd134cb.chunk.css": "/static/css/2.dbd134cb.chunk.css",
-    "static/js/2.85ae1e67.chunk.js": "/static/js/2.85ae1e67.chunk.js",
-    "static/js/2.85ae1e67.chunk.js.map": "/static/js/2.85ae1e67.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.dbd134cb.chunk.css.map": "/static/css/2.dbd134cb.chunk.css.map",
-    "static/css/main.d9b228f0.chunk.css.map": "/static/css/main.d9b228f0.chunk.css.map",
-    "static/js/2.85ae1e67.chunk.js.LICENSE.txt": "/static/js/2.85ae1e67.chunk.js.LICENSE.txt",
-    "static/media/Sale.css": "/static/media/bg.19e78fff.png",
-    "static/media/Order.css": "/static/media/bike1.37da29d9.png"
+    "main.css": "/oldbikes/static/css/main.2f102615.chunk.css",
+    "main.js": "/oldbikes/static/js/main.4dbadbd7.chunk.js",
+    "main.js.map": "/oldbikes/static/js/main.4dbadbd7.chunk.js.map",
+    "runtime-main.js": "/oldbikes/static/js/runtime-main.63c1886d.js",
+    "runtime-main.js.map": "/oldbikes/static/js/runtime-main.63c1886d.js.map",
+    "static/css/2.dbd134cb.chunk.css": "/oldbikes/static/css/2.dbd134cb.chunk.css",
+    "static/js/2.85ae1e67.chunk.js": "/oldbikes/static/js/2.85ae1e67.chunk.js",
+    "static/js/2.85ae1e67.chunk.js.map": "/oldbikes/static/js/2.85ae1e67.chunk.js.map",
+    "index.html": "/oldbikes/index.html",
+    "static/css/2.dbd134cb.chunk.css.map": "/oldbikes/static/css/2.dbd134cb.chunk.css.map",
+    "static/css/main.2f102615.chunk.css.map": "/oldbikes/static/css/main.2f102615.chunk.css.map",
+    "static/js/2.85ae1e67.chunk.js.LICENSE.txt": "/oldbikes/static/js/2.85ae1e67.chunk.js.LICENSE.txt",
+    "static/media/Sale.css": "/oldbikes/static/media/bg.19e78fff.png",
+    "static/media/Order.css": "/oldbikes/static/media/bike1.37da29d9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.900dd88b.js",
+    "static/js/runtime-main.63c1886d.js",
     "static/css/2.dbd134cb.chunk.css",
     "static/js/2.85ae1e67.chunk.js",
-    "static/css/main.d9b228f0.chunk.css",
+    "static/css/main.2f102615.chunk.css",
     "static/js/main.4dbadbd7.chunk.js"
   ]
 }
