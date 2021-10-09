@@ -1,0 +1,13 @@
+.FeaturedContainer {
+  background-color: #484848;
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  color: #fff3;
+  text-transform: uppercase;
+}

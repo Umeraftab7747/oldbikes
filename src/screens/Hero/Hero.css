@@ -1,0 +1,37 @@
+.heroSectioncontainer {
+  /* background-color: red; */
+  width: 100vw;
+  height: 76vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.FHText {
+  color: orangered;
+  text-transform: uppercase;
+  margin-top: 2%;
+}
+
+.FproductContainer {
+  /* background-color: orchid; */
+  width: 90%;
+  height: 380px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  place-items: center;
+  overflow: hidden;
+}
+
+.seemorelink {
+  color: orangered;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  text-decoration: none;
+}
+.seemorelink:hover {
+  font-weight: bold;
+  transform: scale(1.1);
+  text-decoration: none;
+}

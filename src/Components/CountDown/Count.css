@@ -1,0 +1,40 @@
+.CountDownTimer {
+  /* background-color: rebeccapurple; */
+  width: 55%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  /* background-color: red; */
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.TimeHText {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.TimeHText2 {
+  color: #ef8216;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.TimeSText {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.TimeSText2 {
+  color: #ef8216;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}

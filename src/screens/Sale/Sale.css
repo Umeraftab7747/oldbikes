@@ -1,0 +1,112 @@
+.SaleSectionContainer {
+  /* background-color: red; */
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imageSaleContainer {
+  background-image: url("../../assets/bg.png");
+  width: 100%;
+  height: 35%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shadowc {
+  background-color: #0005;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.shadowboxwhitecontainer {
+  /* background-color: green; */
+  width: 500px;
+  height: 150px;
+  margin-left: 2%;
+  padding-top: 3%;
+}
+.FlashsaleLogo {
+  color: white;
+  text-transform: uppercase;
+  margin-left: 2%;
+}
+
+span {
+  color: #ef8216;
+}
+
+.SubSaleText {
+  font-size: 1rem;
+  font-weight: 200;
+  color: white;
+  margin-left: 2%;
+}
+.btncontaienrs {
+  /* background-color: rebeccapurple; */
+  width: 100%;
+  height: 45%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 2%;
+}
+
+.unitText {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #fff9;
+  margin-left: 2%;
+  text-transform: uppercase;
+}
+.bikecontainerforsale {
+  /* background-color: green; */
+  width: 70%;
+  height: 250px;
+  display: flex;
+  border: 1px solid #0001;
+  margin-top: 1%;
+}
+.saleImgContainer {
+  /* background-color: rebeccapurple; */
+  width: 40%;
+  height: 100%;
+  display: flex;
+  background-image: url("../../assets/bike1.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* border: 1px solid black; */
+}
+.leftcontainer {
+  width: 60%;
+  height: 100%;
+  /* background-color: royalblue; */
+}
+.salecontainerText {
+  /* background-color: rebeccapurple; */
+  width: 100%;
+  height: 60%;
+  color: #ef8216;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+.saleconBtntainer {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  /* background-color: gold; */
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,78 @@
+.HeaderContainer {
+  /* background-color: red; */
+  width: 100vw;
+  height: 90vh;
+  background-image: url("../../assets/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shadow {
+  background-color: #0007;
+  width: 100%;
+  height: 100%;
+}
+
+.maincbox {
+  /* background-color: green; */
+  width: 700px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+.headerText {
+  color: #ff7000;
+  text-transform: uppercase;
+  font-size: 4rem;
+  animation: Opactiy 2s;
+  padding-left: 10px;
+}
+.subtext {
+  color: #ffff;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  animation: Opactiy 2.2s;
+  padding-left: 10px;
+}
+.discription {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin-top: 2.5%;
+  text-transform: uppercase;
+  animation: Opactiy 2.5s;
+  padding-left: 10px;
+}
+.BtnBox {
+  /* background-color: orangered; */
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  animation: Opactiy 2.8s;
+  padding-left: 10px;
+}
+
+@keyframes Opactiy {
+  0% {
+    opacity: 0%;
+  }
+  10% {
+    opacity: 0%;
+    transform: translateY(20px);
+  }
+  50% {
+    opacity: 50%;
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}

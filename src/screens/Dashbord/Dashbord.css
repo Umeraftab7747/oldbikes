@@ -1,0 +1,57 @@
+.dashbordscreencontainer {
+  background-color: rebeccapurple;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.leftshippingdetailsbord {
+  background-color: #ff7000;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightshippingdetailsbord {
+  background-color: white;
+  width: 85%;
+  height: 100%;
+  display: flex;
+}
+
+.usercard {
+  /* background-color: green; */
+  width: 90%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Nameofuser {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.newbuttonfordashbord {
+  width: 190px;
+  height: 50px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  margin-top: 10%;
+  transition: all 0.1s ease;
+}
+.newbuttonfordashbord:hover {
+  transform: scale(1.1);
+}
+.newbuttonfordashbord:active {
+  transform: scale(0.98);
+}
+
+.newbuttontext {
+  color: #ff7000;
+  font-size: 1rem;
+}

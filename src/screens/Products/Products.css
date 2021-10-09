@@ -1,0 +1,14 @@
+.ProductsSectioncontainer {
+  width: 100vw;
+  height: 100vh;
+}
+.girdporductslist {
+  /* background-color: orchid; */
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  place-items: center;
+  overflow: hidden;
+}

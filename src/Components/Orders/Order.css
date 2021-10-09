@@ -1,0 +1,49 @@
+.ordercontainer {
+  /* background-color: orchid; */
+  width: 100%;
+  height: 10%;
+  display: flex;
+  border: 1px solid #0001;
+  animation: animation 1s;
+  transition: all 0.3s ease;
+}
+
+.leftoder {
+  /* background-color: palegoldenrod; */
+  width: 10%;
+  height: 100%;
+}
+.middleoder {
+  /* background-color: goldenrod; */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.Rightoder {
+  /* background-color: green; */
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgordercontainer {
+  background-image: url("../../assets/bike1.png");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@keyframes animation {
+  0% {
+    opacity: 0%;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0px);
+  }
+}

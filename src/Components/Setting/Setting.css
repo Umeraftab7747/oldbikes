@@ -1,0 +1,53 @@
+.settingscreen {
+  /* background-color: gold; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SetingContainer {
+  /* background-color: royalblue; */
+  width: 90%;
+  height: 90%;
+  border: 1px solid #ff7000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headerSettingcontainer {
+  background-color: #ff7000;
+  width: 100%;
+  height: 10%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.SettingText {
+  color: white;
+  font-size: 2rem;
+}
+
+.Settingformdetails {
+  /* background-color: orchid; */
+  width: 95%;
+  height: 95%;
+}
+.SettingInput {
+  background-color: #0002;
+  width: 90%;
+  height: 10%;
+  border: none;
+  outline: none;
+  margin-top: 1%;
+  padding-left: 1%;
+  border-radius: 10px;
+}
+
+.space {
+  margin-top: 1%;
+  width: 10%;
+  height: 10%;
+}

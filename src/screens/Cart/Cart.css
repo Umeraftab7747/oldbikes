@@ -1,0 +1,83 @@
+.cartsectioncontainer {
+  /* background-color: goldenrod; */
+  width: 100vw;
+  height: 100vh;
+}
+
+.itemcontainer {
+  width: 100%;
+  /* background-color: rebeccapurple; */
+  height: 100%;
+  display: flex;
+}
+
+.leftcartCotnainer {
+  /* background-color: red; */
+  width: 70%;
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 5px;
+  place-items: center;
+}
+.RightcartCotnainer {
+  /* background-color: royalblue; */
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartSummaryContainer {
+  /* background-color: orangered; */
+  width: 90%;
+  height: 60%;
+  border: 1px solid #0003;
+}
+
+.carthead {
+  background-color: orangered;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  padding-left: 3%;
+}
+.CartText {
+  color: white;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.itemlistincart {
+  /* background-color: yellow; */
+  width: 100%;
+  height: 50%;
+}
+.cartListing {
+  width: 100%;
+  height: 20%;
+  /* background-color: yellowgreen; */
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2%;
+  padding-right: 2%;
+  align-items: center;
+}
+.cartttItem {
+  font-size: 1.5rem;
+}
+.cartttItem2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.bottomcartCotnainer {
+  /* background-color: grey; */
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 2%;
+  padding-bottom: 2%;
+  justify-content: space-evenly;
+}

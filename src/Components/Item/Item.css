@@ -1,0 +1,60 @@
+.itemContainer {
+  /* background-color: palegoldenrod; */
+  width: 280px;
+  height: 320px;
+  display: flex;
+
+  flex-direction: column;
+  border: 1px solid #0001;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.itemContainer:hover {
+  transform: scale(1.1);
+}
+
+.imgcontainer {
+  width: 100%;
+  height: 70%;
+  background-image: url("../../assets/bike1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.BikeHeader {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-left: 2%;
+}
+.lowerContainrforBtn {
+  /* background-color: red; */
+  width: 100%;
+  height: 16%;
+  display: flex;
+}
+.leftContainerforprice {
+  /* background-color: palegreen; */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding-left: 2%;
+  font-weight: bold;
+}
+.leftContainerforprice2 {
+  /* background-color: orchid; */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1%;
+}
+
+.PriceTag {
+  color: #ff7000;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
